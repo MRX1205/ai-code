@@ -1,6 +1,8 @@
 spring:
   application:
     name: lyhm-ai-code
+  profiles:
+    active: local
 #??knife4j???
 server:
   port: 8123
